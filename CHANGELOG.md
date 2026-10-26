@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.4.1 - 2026-10-26
+
+### What's Changed
+
+- fix(pull): fast-forward from the remote-tracking branch and repair bad refs
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.4.1
+
 ## v0.4.0 - 2026-10-26
 
 ### What's Changed
