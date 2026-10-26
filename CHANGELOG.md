@@ -4,6 +4,18 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.5.0 - 2026-10-26
+
+### What's Changed
+
+- fix(history): make ahead/behind counts accurate and refresh stale history
+- fix(settings): make follow-system language a switch
+- fix(history): put commit actions on their own row and add message copy
+- fix(settings): tidy the web service account and start layout
+- feat(history): add a full-width horizontal commit graph with node previews
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.5.0
+
 ## v0.4.1 - 2026-10-26
 
 ### What's Changed
