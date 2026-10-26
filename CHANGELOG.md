@@ -4,6 +4,18 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.6.0 - 2026-10-26
+
+### What's Changed
+
+- feat(history): add day bands, date range filter and parent lanes
+- fix(history,pull): include fetched history and preserve exclusions
+- feat(settings): show settings inside the home tab
+- fix(settings): move session validity into web service settings
+- docs(release): publish only when explicitly requested
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.6.0
+
 ## v0.6.0-beta.2 - 2026-10-26
 
 ### What's Changed
