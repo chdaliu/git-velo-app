@@ -4,6 +4,16 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.6.0-beta.1 - 2026-10-26
+
+### What's Changed
+
+- fix(history,web): restore graph entry, scope graph branches, require web password
+- docs(release): default future releases to beta tags
+- feat(repo): choose a git identity when initializing a repository
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.6.0-beta.1
+
 ## v0.5.0 - 2026-10-26
 
 ### What's Changed
