@@ -4,6 +4,17 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.1 - 2026-10-27
+
+### What's Changed
+
+- docs(release): prepare v0.7.0-beta.1
+- feat(workspace): split staged and unstaged change tabs
+- feat(history): draw a first-parent chain for a selected branch
+- fix(gitcore): preserve untracked files during pull and checkout
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.1
+
 ## v0.6.0 - 2026-10-26
 
 ### What's Changed
