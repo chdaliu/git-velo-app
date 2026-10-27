@@ -4,6 +4,17 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.3 - 2026-10-27
+
+### What's Changed
+
+- docs(release): prepare v0.7.0-beta.3
+- feat(brand): refresh app icons with a gradient branch mark
+- fix(ui): switch narrow layout at 700px and stabilize the title bar
+- fix(history): remove branch switching from the commit graph
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.3
+
 ## v0.7.0-beta.2 - 2026-10-27
 
 ### What's Changed
