@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.12 - 2026-10-27
+
+### What's Changed
+
+- fix(settings): keep row controls on the right when compact
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.12
+
 ## v0.7.0-beta.11 - 2026-10-27
 
 ### What's Changed
