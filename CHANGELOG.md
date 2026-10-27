@@ -4,6 +4,17 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.8 - 2026-10-27
+
+### What's Changed
+
+- fix(workspace): hide the diff close action on narrow screens
+- feat(workspace): add a close button to the diff actions
+- fix(ui): unify wide and narrow page margins
+- fix: align title bar, correct ahead/behind counts, show online branch history
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.8
+
 ## v0.7.0-beta.7 - 2026-10-27
 
 ### What's Changed
