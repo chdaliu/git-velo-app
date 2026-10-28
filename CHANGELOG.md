@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.19 - 2026-10-28
+
+### What's Changed
+
+- feat(stash,tags): add stash details and bulk tag push
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.19
+
 ## v0.7.0-beta.18 - 2026-10-28
 
 ### What's Changed
