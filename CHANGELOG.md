@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.22 - 2026-10-28
+
+### What's Changed
+
+- feat(files,ui): add file search and touch menus, fix dark startup flash
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.22
+
 ## v0.7.0-beta.21 - 2026-10-28
 
 ### What's Changed
