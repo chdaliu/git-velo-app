@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.30 - 2026-10-28
+
+### What's Changed
+
+- fix(tags): reorder selection actions and keep checkbox size
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.30
+
 ## v0.7.0-beta.29 - 2026-10-28
 
 ### What's Changed
