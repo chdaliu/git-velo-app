@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.27 - 2026-10-28
+
+### What's Changed
+
+- fix(git): require the custom engine before using a custom Git path
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.27
+
 ## v0.7.0-beta.26 - 2026-10-28
 
 ### What's Changed
