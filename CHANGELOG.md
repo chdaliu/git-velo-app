@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.25 - 2026-10-28
+
+### What's Changed
+
+- feat(workspace): add stage-all and unstage-all actions
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.25
+
 ## v0.7.0-beta.24 - 2026-10-28
 
 ### What's Changed
