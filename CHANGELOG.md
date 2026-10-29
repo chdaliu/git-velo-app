@@ -4,6 +4,14 @@ Release history for GitVelo. The source repository is private, so this
 public copy keeps every version's changes available. Releases before
 this file was introduced remain on the Releases page.
 
+## v0.7.0-beta.33 - 2026-10-29
+
+### What's Changed
+
+- feat(projects): add managed clone folders and mobile restrictions
+
+**Release:** https://github.com/chdaliu/git-velo-app/releases/tag/v0.7.0-beta.33
+
 ## v0.7.0-beta.32 - 2026-10-29
 
 ### What's Changed
