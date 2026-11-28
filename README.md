@@ -1,5 +1,7 @@
 # GitVeloApp
 
+**🌐 在线主页 / Website: [chdaliu.github.io/git-velo-app](https://chdaliu.github.io/git-velo-app/)**
+
 [中文](#中文) · [English](#english)
 
 ---
@@ -10,8 +12,7 @@
 
 这里提供 GitVelo 各平台的已构建版本、安装包、校验和与发布说明。GitVelo 是一款跨平台 Git 图形管理工具。
 
-- 📦 **下载**：前往 [chdaliu/git-velo-app Releases](https://github.com/chdaliu/git-velo-app/releases) 获取最新版本
-- 🌐 **网页**：[chdaliu.github.io/git-velo-app](https://chdaliu.github.io/git-velo-app/) — 安装说明与下载入口
+- 📦 **下载**：前往 [chdaliu/git-velo-app Releases](https://github.com/chdaliu/git-velo-app/releases) 获取最新版本，或通过[在线主页](https://chdaliu.github.io/git-velo-app/#download)选择安装包
 - 📝 **发布说明**：每个版本的更新内容见对应 Release
 
 > 本仓库不包含应用源代码、构建脚本或开发文档，也不接受代码类 Pull Request。功能建议与缺陷反馈请在本仓库提交 Issue。
@@ -90,8 +91,7 @@ Get-FileHash .\GitVelo-*.exe -Algorithm SHA256
 
 This repository hosts prebuilt versions, installers, checksums and release notes for GitVelo, a cross-platform Git GUI.
 
-- 📦 **Download**: grab the latest version from [chdaliu/git-velo-app Releases](https://github.com/chdaliu/git-velo-app/releases)
-- 🌐 **Website**: [chdaliu.github.io/git-velo-app](https://chdaliu.github.io/git-velo-app/) — install guide and downloads
+- 📦 **Download**: grab the latest version from [chdaliu/git-velo-app Releases](https://github.com/chdaliu/git-velo-app/releases), or pick a package on the [website](https://chdaliu.github.io/git-velo-app/#download)
 - 📝 **Release notes**: see the Release entry for each version
 
 > This repository contains no application source code, build scripts or developer docs, and does not accept code pull requests. Please report bugs and feature requests via the issues in this repository.
