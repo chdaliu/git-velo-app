@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="-60 -60 1144 1144">
+  <defs>
+    <linearGradient id="base" x1="120" y1="80" x2="930" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5"/>
+      <stop offset=".46" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#db2777"/>
+    </linearGradient>
+    <radialGradient id="auroraA" cx="0" cy="0" r="1" gradientTransform="translate(238 176) rotate(48) scale(620)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraB" cx="0" cy="0" r="1" gradientTransform="translate(846 862) rotate(-138) scale(560)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb7185" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="512" y1="48" x2="512" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="300" y1="210" x2="760" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="markGlow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="markShadow" x="-30%" y="-30%" width="160%" height="176%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="22" result="blur"/>
+      <feOffset in="blur" dy="18" result="offset"/>
+      <feFlood flood-color="#2e1065" flood-opacity=".36" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rounded app tile with an aurora gradient and a glass-like top sheen. -->
+  <g>
+    <rect x="52" y="52" width="920" height="920" rx="224" fill="url(#base)"/>
+    <rect x="52" y="52" width="920" height="920" rx="224" fill="url(#auroraA)"/>
+    <rect x="52" y="52" width="920" height="920" rx="224" fill="url(#auroraB)"/>
+    <rect x="52" y="52" width="920" height="920" rx="224" fill="url(#sheen)"/>
+    <rect x="54" y="54" width="916" height="916" rx="222" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="4"/>
+  </g>
+
+  <!-- Branch glyph: one mainline node with a curved branch into a second node. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g filter="url(#markGlow)" opacity=".38" stroke="#ffffff" stroke-width="94">
+      <path d="M336 236v352"/>
+      <path d="M410 690c150 18 196-166 224-286"/>
+      <circle cx="336" cy="690" r="72"/>
+      <circle cx="694" cy="336" r="72"/>
+    </g>
+    <g filter="url(#markShadow)">
+      <path d="M336 236v352" stroke="url(#mark)" stroke-width="58"/>
+      <path d="M410 690c150 18 196-166 224-286" stroke="url(#mark)" stroke-width="58"/>
+      <circle cx="336" cy="690" r="72" stroke="url(#mark)" stroke-width="54"/>
+      <circle cx="694" cy="336" r="72" stroke="url(#mark)" stroke-width="54"/>
+    </g>
+    <!-- A soft inner highlight keeps the white mark from looking flat. -->
+    <g opacity=".5">
+      <path d="M324 246v326" stroke="#ffffff" stroke-width="9" opacity=".55"/>
+      <circle cx="326" cy="680" r="44" stroke="#ffffff" stroke-width="8" opacity=".42"/>
+      <circle cx="684" cy="326" r="44" stroke="#ffffff" stroke-width="8" opacity=".42"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+---
+title: GitVelo
+description: GitVelo — macOS Git 图形管理工具，Apple Silicon 与 Intel 安装包官方下载。
+---
+
+{% capture icon_mac %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 19h20"/></svg>{% endcapture %}
+{% capture icon_hash %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5.6c0 4.1-2.9 7.3-7 9.4-4.1-2.1-7-5.3-7-9.4V6z"/><path d="M9 12l2.2 2.2L15.4 10"/></svg>{% endcapture %}
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand-icon" src="{{ '/assets/img/appicon.svg' | relative_url }}" alt="" width="26" height="26">
+      <span class="brand-name">GitVelo</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#download" data-zh="下载" data-en="Download">下载</a>
+      <a href="#install" data-zh="安装" data-en="Install">安装</a>
+      <a href="#verify" data-zh="校验" data-en="Verify">校验</a>
+      <a href="#feedback" data-zh="反馈" data-en="Feedback">反馈</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" type="button" id="lang-toggle" aria-label="Switch language">EN</button>
+      <a class="btn btn-sm btn-ghost" href="https://github.com/chdaliu/git-velo-app/releases/latest">
+        <span data-zh="发布页" data-en="Releases">发布页</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow" data-zh="macOS Git 图形管理工具" data-en="Git GUI for macOS">macOS Git 图形管理工具</p>
+
+      <img class="hero-icon" src="{{ '/assets/img/appicon.svg' | relative_url }}" alt="GitVelo" width="112" height="112">
+
+      <h1 class="wordmark">GitVelo</h1>
+
+      <p class="lead"
+         data-zh="用图形界面浏览仓库、管理分支与提交。当前提供 macOS 版本（Apple Silicon 与 Intel），安装包从 GitHub Releases 直接分发。"
+         data-en="Browse repositories, manage branches and commits through a native GUI. macOS builds (Apple Silicon and Intel) are available now, distributed straight from GitHub Releases.">用图形界面浏览仓库、管理分支与提交。当前提供 macOS 版本（Apple Silicon 与 Intel），安装包从 GitHub Releases 直接分发。</p>
+
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="https://github.com/chdaliu/git-velo-app/releases/latest">
+          <span data-zh="下载最新版" data-en="Download latest">下载最新版</span>
+          <span class="version-chip" data-latest-version hidden></span>
+        </a>
+        <a class="btn btn-ghost btn-lg" href="https://github.com/chdaliu/git-velo-app/releases">
+          <span data-zh="全部版本" data-en="All releases">全部版本</span>
+        </a>
+      </div>
+
+      <p class="hero-meta">
+        <span data-zh="标记为 Pre-release 的版本为测试版，可能不稳定，安装前请先阅读发布说明。"
+              data-en="Builds marked as pre-release are test versions and may be unstable — read the release notes before installing.">标记为 Pre-release 的版本为测试版，可能不稳定，安装前请先阅读发布说明。</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="download">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-zh="下载" data-en="Download">下载</h2>
+        <p data-zh="当前发布 macOS 安装包，按处理器架构选择。每个 Release 同时提供 SHA256SUMS 校验文件。"
+           data-en="macOS builds are available today — pick the package for your chip. Every release also ships a SHA256SUMS file.">当前发布 macOS 安装包，按处理器架构选择。每个 Release 同时提供 SHA256SUMS 校验文件。</p>
+      </div>
+
+      <div class="grid grid-platforms">
+        <article class="card platform-card">
+          <div class="platform-head">
+            <span class="platform-icon">{{ icon_mac }}</span>
+            <div>
+              <h3>macOS</h3>
+              <p class="platform-meta">Apple Silicon</p>
+            </div>
+          </div>
+          <p class="platform-file mono">.dmg · arm64</p>
+          <a class="btn btn-sm btn-primary" data-asset="mac-arm64" href="https://github.com/chdaliu/git-velo-app/releases/latest">
+            <span data-zh="下载" data-en="Download">下载</span>
+          </a>
+        </article>
+
+        <article class="card platform-card">
+          <div class="platform-head">
+            <span class="platform-icon">{{ icon_mac }}</span>
+            <div>
+              <h3>macOS</h3>
+              <p class="platform-meta">Intel</p>
+            </div>
+          </div>
+          <p class="platform-file mono">.dmg · x64</p>
+          <a class="btn btn-sm btn-primary" data-asset="mac-x64" href="https://github.com/chdaliu/git-velo-app/releases/latest">
+            <span data-zh="下载" data-en="Download">下载</span>
+          </a>
+        </article>
+
+        <article class="card platform-card platform-card--muted">
+          <div class="platform-head">
+            <span class="platform-icon">{{ icon_hash }}</span>
+            <div>
+              <h3 data-zh="校验和" data-en="Checksums">校验和</h3>
+              <p class="platform-meta" data-zh="完整性校验" data-en="Integrity">完整性校验</p>
+            </div>
+          </div>
+          <p class="platform-file mono">SHA256SUMS</p>
+          <a class="btn btn-sm btn-ghost" data-asset="checksums" href="https://github.com/chdaliu/git-velo-app/releases/latest">
+            <span data-zh="查看" data-en="View">查看</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="install">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-zh="安装" data-en="Install">安装</h2>
+        <p data-zh="下载 .dmg 后拖入「应用程序」即可，无需额外的命令行配置。"
+           data-en="Open the .dmg and drag GitVelo into Applications — no command line setup required.">下载 .dmg 后拖入「应用程序」即可，无需额外的命令行配置。</p>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>macOS</h3>
+          <ol class="steps">
+            <li data-zh="下载并打开 .dmg 文件。" data-en="Download and open the .dmg file.">下载并打开 .dmg 文件。</li>
+            <li data-zh="将 GitVelo 拖入「应用程序」文件夹。" data-en="Drag GitVelo into the Applications folder.">将 GitVelo 拖入「应用程序」文件夹。</li>
+            <li data-zh="首次启动若被系统拦截，请在「系统设置 → 隐私与安全性」中允许，或右键应用选择「打开」。"
+                data-en="If macOS blocks the first launch, allow it under System Settings → Privacy &amp; Security, or right-click the app and choose Open.">首次启动若被系统拦截，请在「系统设置 → 隐私与安全性」中允许，或右键应用选择「打开」。</li>
+          </ol>
+        </article>
+
+        <article class="card">
+          <h3 data-zh="系统要求" data-en="Requirements">系统要求</h3>
+          <ol class="steps">
+            <li data-zh="Apple Silicon（M 系列）或 Intel 处理器的 Mac。" data-en="A Mac with Apple Silicon (M-series) or an Intel processor.">Apple Silicon（M 系列）或 Intel 处理器的 Mac。</li>
+            <li data-zh="下载时注意选择与自己芯片匹配的 .dmg。" data-en="Pick the .dmg that matches your chip when downloading.">下载时注意选择与自己芯片匹配的 .dmg。</li>
+            <li data-zh="升级时直接安装新版本覆盖旧版本，配置与仓库数据会保留。"
+                data-en="To upgrade, install the new version over the old one — settings and repository data are preserved.">升级时直接安装新版本覆盖旧版本，配置与仓库数据会保留。</li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="verify">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-zh="校验下载" data-en="Verify downloads">校验下载</h2>
+        <p data-zh="安装前建议校验文件完整性，并与 Release 中的 SHA256SUMS 对比。"
+           data-en="Checking file integrity before installing is recommended — compare the output with the SHA256SUMS file in the release.">安装前建议校验文件完整性，并与 Release 中的 SHA256SUMS 对比。</p>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <h3 data-zh="按 SHA256SUMS 批量校验" data-en="Verify against SHA256SUMS">按 SHA256SUMS 批量校验</h3>
+          <pre><code>shasum -a 256 -c SHA256SUMS</code></pre>
+        </article>
+        <article class="card">
+          <h3 data-zh="单独校验下载文件" data-en="Check a single file">单独校验下载文件</h3>
+          <pre><code>shasum -a 256 GitVelo-*.dmg</code></pre>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="notes">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-zh="版本说明" data-en="Versioning">版本说明</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card card-note">
+          <h3 data-zh="语义化版本" data-en="Semantic versioning">语义化版本</h3>
+          <p data-zh="版本号遵循「主版本.次版本.修订号」，修复与功能变更可从版本号直接判断。"
+             data-en="Versions follow major.minor.patch, so the scope of a fix or feature is visible from the number alone.">版本号遵循「主版本.次版本.修订号」，修复与功能变更可从版本号直接判断。</p>
+        </article>
+        <article class="card card-note">
+          <h3 data-zh="预发布通道" data-en="Pre-release channel">预发布通道</h3>
+          <p data-zh="标记为 Pre-release 的版本为测试版，面向提前尝鲜与问题反馈，不建议日常使用。"
+             data-en="Builds marked as pre-release are for early testing and feedback; they are not recommended for daily use.">标记为 Pre-release 的版本为测试版，面向提前尝鲜与问题反馈，不建议日常使用。</p>
+        </article>
+        <article class="card card-note">
+          <h3 data-zh="覆盖升级" data-en="Upgrade in place">覆盖升级</h3>
+          <p data-zh="升级时直接安装新版本覆盖旧版本，配置与仓库数据会保留。"
+             data-en="Install the new version over the old one — settings and repository data are preserved.">升级时直接安装新版本覆盖旧版本，配置与仓库数据会保留。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-feedback" id="feedback">
+    <div class="wrap feedback-inner">
+      <h2 data-zh="反馈与建议" data-en="Feedback">反馈与建议</h2>
+      <p data-zh="安装包无法下载、校验失败或功能建议，欢迎在 Issues 中反馈，并注明版本号与平台。"
+         data-en="Broken downloads, checksum mismatches or feature requests — open an issue with the version and platform.">安装包无法下载、校验失败或功能建议，欢迎在 Issues 中反馈，并注明版本号与平台。</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://github.com/chdaliu/git-velo-app/issues">
+          <span data-zh="提交 Issue" data-en="Open an issue">提交 Issue</span>
+        </a>
+        <a class="btn btn-ghost" href="https://github.com/chdaliu/git-velo-app/releases">
+          <span data-zh="查看发布说明" data-en="Read release notes">查看发布说明</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand"><img class="brand-icon brand-icon--sm" src="{{ '/assets/img/appicon.svg' | relative_url }}" alt="" width="20" height="20"> GitVelo</p>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://github.com/chdaliu/git-velo-app">GitHub</a>
+      <a href="https://github.com/chdaliu/git-velo-app/releases">Releases</a>
+      <a href="https://github.com/chdaliu/git-velo-app/issues">Issues</a>
+      <a href="https://github.com/chdaliu/git-velo-app/blob/main/CHANGELOG.md">Changelog</a>
+    </nav>
+  </div>
+</footer>
